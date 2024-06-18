@@ -1,0 +1,12 @@
+# HTID:3248810: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:3248810:
+
+ErrorDocument 404 http://www.mynamejeff.co.uk/404
+ErrorDocument 403 http://www.mynamejeff.co.uk/403
+ErrorDocument 400 http://www.mynamejeff.co.uk/400
+ErrorDocument 500 http://www.mynamejeff.co.uk/500
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
