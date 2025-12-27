@@ -4,7 +4,7 @@
     color:red;
 }
 
-.regularbackground
+.background
 {
     background-color:lime;
 }
@@ -33,7 +33,7 @@
         background-position: center;
         background-size: cover;
 }
-.background
+.christmasbackground
 {
         background-color:lime;
         background-repeat: no-repeat;
